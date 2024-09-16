@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1302px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header_title {
+  color: rgb(51, 51, 51);
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+.header_li {
+  color: rgb(44, 56, 71);
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.header_li1 {
+  color: rgb(95, 184, 72);
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.header_btn {
+  border-radius: 27px;
+  background: rgb(73, 73, 73);
+  width: 160px;
+  height: 54px;
+  color: rgb(255, 255, 255);
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  border: none;
+}
+
+.header_images {
+  display: flex;
+  gap: 20px;
+}
+
+.header_button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.us_title {
+  color: rgb(21, 20, 20);
+  font-family: Sharp Sans No1;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  text-align: center;
+}
+
+.us_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 62px;
+}
+
+.us_li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.us_suptitle {
+  color: rgb(59, 67, 62);
+  font-family: Sharp Sans No1;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.us_li_title {
+  color: rgb(24, 29, 25);
+  font-family: Sharp Sans No1;
+  font-size: 28px;
+  font-weight: 770;
+  line-height: 35px;
+  padding-top: 36px;
+}
+
+.us_li_suptitle {
+  font-family: Sharp Sans No1;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 28px;
+  color: rgb(16, 22, 18);
+  width: 250px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.us_list_number {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.us_number {
+  color: rgb(0, 0, 0);
+  font-family: Sharp Sans No1;
+  font-size: 44px;
+  font-weight: 780;
+  line-height: 55px;
+}
+
+.us_number_sup {
+  color: rgb(84, 84, 84);
+  font-family: Sharp Sans No1;
+  font-size: 20px;
+  font-weight: 760;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.us_number_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_title {
+  color: rgb(21, 20, 20);
+  font-family: Sharp Sans No1;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+}
+
+.info {
+  padding-top: 120px;
+}
+
+.info_left_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info_suptitle {
+  color: rgb(24, 29, 25);
+  font-family: Sharp Sans No1;
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+  width: 450px;
+  padding-top: 30px;
+}
+
+.info_btn {
+  width: 210px;
+  height: 64px;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Sofia Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  border: none;
+  margin-top: 68px;
+  background: linear-gradient(180deg, rgb(100, 187, 71), rgb(44, 149, 83) 100%);
+}
+
+.email_title {
+  color: rgb(21, 20, 20);
+  font-family: Sharp Sans No1;
+  font-size: 36px;
+  font-weight: 770;
+  line-height: 45px;
+}
+
+.email_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email_suptitle {
+  color: rgb(59, 67, 62);
+  font-family: Sharp Sans No1;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.email_inp_wrap {
+  display: flex;
+  gap: 15px;
+  padding-top: 60px;
+}
+
+.email_input {
+  width: 330px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(245, 245, 245);
+  border-radius: 165px;
+  background: rgb(255, 255, 255);
+}
+
+.email_btn {
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, rgb(100, 187, 71), rgb(44, 149, 83) 100%);
+  color: rgb(255, 255, 255);
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  border: none;
+}
+
+.footer {
+  background: rgb(252, 252, 252);
+}/*# sourceMappingURL=main.css.map */
