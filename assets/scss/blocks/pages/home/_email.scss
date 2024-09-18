@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 150px;
 }
 
 .email_suptitle {
@@ -34,6 +35,8 @@
   border: 1.5px solid rgb(245, 245, 245);
   border-radius: 165px;
   background: rgb(255, 255, 255);
+  padding-left: 20px;
+  outline: none;
 }
 
 .email_btn {
